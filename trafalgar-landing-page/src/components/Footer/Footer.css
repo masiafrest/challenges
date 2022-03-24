@@ -1,0 +1,32 @@
+footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  background-image: linear-gradient(to bottom left, #67c3f3, #5a98f2);
+  height: 300px;
+  color: white;
+  padding: 3rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex: 1;
+}
+
+.logo-footer-column {
+  flex: 3;
+  margin: 0 3rem;
+  /* background-color: yellow; */
+  /* flex-shrink: 1; */
+  /* padding: 0 3rem; */
+}

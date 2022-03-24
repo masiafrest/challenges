@@ -1,0 +1,21 @@
+.logo-container {
+  margin-right: 1.2rem;
+  display: flex;
+  align-items: center;
+}
+.logo-container span {
+  font-size: 24px;
+}
+.icon {
+  color: white;
+  font-size: 26px;
+  font-weight: bold;
+  margin-right: 10px;
+  height: 41px;
+  width: 41px;
+  background: #458ff6;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

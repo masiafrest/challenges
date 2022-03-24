@@ -1,0 +1,40 @@
+.section4 {
+  /* margin: 20px 0; */
+  /* background: #ffff00; */
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section4 article {
+  margin-right: 3rem;
+  display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox; /* TWEENER - IE 10 */
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.section4 button {
+  background: #458ff6;
+  color: white;
+  border: 2px solid white;
+  border-radius: 55px;
+  padding: 0.8rem 1.4rem;
+}
+
+.section4 > img {
+  height: auto;
+  /* width: 693px; */
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .section4 img {
+    height: 300px;
+    width: 300px;
+  }
+}

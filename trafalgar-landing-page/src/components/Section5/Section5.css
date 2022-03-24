@@ -1,0 +1,59 @@
+.section-card {
+  background-image: linear-gradient(to bottom left, #67c3f3, #5a98f2);
+  color: white;
+  margin: 2rem 0;
+  padding: 3rem;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-card h2 {
+  text-align: center;
+}
+
+.section-card hr {
+  height: 2px;
+  width: 56px;
+  margin-top: 40px;
+  border-radius: 5px;
+  border-color: white;
+  background: white;
+  color: white;
+}
+
+.section-card .card-body-grid {
+  display: grid;
+  margin: 2rem;
+  margin-top: 4rem;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 20rem), 1fr));
+}
+
+.section-card .card-body {
+  overflow: hidden;
+  display: flex;
+  place-self: center;
+}
+.section-card .card-body .founder-img {
+  border: 3px solid white;
+  overflow: hidden;
+  border-radius: 50%;
+  max-width: 100px;
+  max-height: 100px;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+.section-card .card-body img {
+  scale: 1.8;
+  width: 120%;
+  display: block;
+  object-fit: cover;
+  object-position: 150%;
+}
+.section-card .card-founder-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}

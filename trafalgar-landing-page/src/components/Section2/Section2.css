@@ -1,0 +1,44 @@
+.section2 {
+  margin: 60px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section2 > hr {
+  height: 2px;
+  width: 56px;
+  margin: 40px 0;
+  border-radius: 5px;
+  background: black;
+}
+
+.section2 > h2 {
+  font-size: 36px;
+}
+
+.section2 > p {
+  font-size: 18px;
+  color: #7d7987;
+  margin: 0 2rem 2rem;
+  text-align: center;
+}
+.section2 > button {
+  background: white;
+  border: 2px solid #458ff6;
+  color: #458ff6;
+  padding: 10px 20px;
+  border-radius: 55px;
+  margin: 2rem 2rem;
+  text-align: center;
+}
+
+.card-container {
+  /* background-color: chocolate; */
+  width: 100%;
+  flex: 1;
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 20rem), 1fr));
+}

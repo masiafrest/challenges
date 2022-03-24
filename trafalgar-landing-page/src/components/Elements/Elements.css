@@ -1,0 +1,12 @@
+.bullets {
+  width: 130px;
+  height: 115px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+}
+
+.bullet {
+  color: grey;
+  font-size: 3rem;
+}

@@ -1,0 +1,10 @@
+.app{
+  background-color: var(--bg);
+  font-family: sans-serif;
+  padding: 1rem 2rem 0;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  gap:1rem;
+}

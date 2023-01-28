@@ -1,0 +1,19 @@
+.info_header {
+  display:flex;
+  flex-direction: column;
+  gap:0.4rem;
+
+  h1.sell_buy{
+    margin:0
+  }
+
+  .ratio_exchange {
+    color: royalblue;
+    display: flex;
+    gap:1ch;
+    
+    svg {
+    }
+
+  }
+}

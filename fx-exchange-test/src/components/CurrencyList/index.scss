@@ -1,0 +1,23 @@
+ul.currency_list {
+  appearance: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  list-style: none;
+
+  li {
+    display: flex;
+    align-items: center;
+    gap:1rem;
+
+    img {
+      border-radius: 50%;
+    }
+
+    button {
+      border: none;
+      background-color: transparent;
+    }
+  }
+
+}

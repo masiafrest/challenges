@@ -1,4 +1,4 @@
-import { ChangeEvent, InputHTMLAttributes, useRef } from "react";
+import React, { ChangeEvent, InputHTMLAttributes, useRef } from "react";
 import { AssestIcon } from "../../types/exchanges";
 import CurrencyList from "../CurrencyList/CurrencyList";
 import DropdownArrow from "../DropdownArrow/DropdownArrow";
@@ -32,7 +32,9 @@ export default function CurrencyInput({
         inputRef.current?.focus()
       }}>
         <div className="first_row">
-          <button className="currency_selector" onClick={openDialog}>
+          <button className="currency_selector" onClick={openDialog}
+          data-testid="currency_selector" 
+          >
             {selectedCurrency} <DropdownArrow dir="down" />
           </button>
           <input
